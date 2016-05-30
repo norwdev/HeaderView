@@ -15,6 +15,13 @@
 		A24BA6CC1CF8300000F1140D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24BA6CA1CF8300000F1140D /* LaunchScreen.storyboard */; };
 		A24BA6D71CF8300000F1140D /* HeaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BA6D61CF8300000F1140D /* HeaderViewTests.m */; };
 		A24BA6E21CF8300000F1140D /* HeaderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BA6E11CF8300000F1140D /* HeaderViewUITests.m */; };
+		A24BA6F41CF8302C00F1140D /* WDHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BA6F11CF8302C00F1140D /* WDHeaderView.m */; };
+		A24BA6F51CF8302C00F1140D /* WDImageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A24BA6F31CF8302C00F1140D /* WDImageVIew.m */; };
+		A24BA6FB1CF8393300F1140D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A24BA6F61CF8393300F1140D /* 1.png */; };
+		A24BA6FC1CF8393300F1140D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A24BA6F71CF8393300F1140D /* 2.png */; };
+		A24BA6FD1CF8393300F1140D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A24BA6F81CF8393300F1140D /* 3.png */; };
+		A24BA6FE1CF8393300F1140D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = A24BA6F91CF8393300F1140D /* 4.png */; };
+		A24BA6FF1CF8393300F1140D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = A24BA6FA1CF8393300F1140D /* 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		A24BA6DD1CF8300000F1140D /* HeaderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeaderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24BA6E11CF8300000F1140D /* HeaderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderViewUITests.m; sourceTree = "<group>"; };
 		A24BA6E31CF8300000F1140D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24BA6F01CF8302C00F1140D /* WDHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDHeaderView.h; sourceTree = "<group>"; };
+		A24BA6F11CF8302C00F1140D /* WDHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDHeaderView.m; sourceTree = "<group>"; };
+		A24BA6F21CF8302C00F1140D /* WDImageVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDImageVIew.h; sourceTree = "<group>"; };
+		A24BA6F31CF8302C00F1140D /* WDImageVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDImageVIew.m; sourceTree = "<group>"; };
+		A24BA6F61CF8393300F1140D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A24BA6F71CF8393300F1140D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		A24BA6F81CF8393300F1140D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		A24BA6F91CF8393300F1140D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		A24BA6FA1CF8393300F1140D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		A24BA6BB1CF82FFF00F1140D /* HeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				A24BA6EF1CF8302C00F1140D /* class */,
 				A24BA6BF1CF82FFF00F1140D /* AppDelegate.h */,
 				A24BA6C01CF82FFF00F1140D /* AppDelegate.m */,
 				A24BA6C21CF82FFF00F1140D /* ViewController.h */,
@@ -117,6 +134,11 @@
 		A24BA6BC1CF82FFF00F1140D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A24BA6F61CF8393300F1140D /* 1.png */,
+				A24BA6F71CF8393300F1140D /* 2.png */,
+				A24BA6F81CF8393300F1140D /* 3.png */,
+				A24BA6F91CF8393300F1140D /* 4.png */,
+				A24BA6FA1CF8393300F1140D /* 5.png */,
 				A24BA6BD1CF82FFF00F1140D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +160,17 @@
 				A24BA6E31CF8300000F1140D /* Info.plist */,
 			);
 			path = HeaderViewUITests;
+			sourceTree = "<group>";
+		};
+		A24BA6EF1CF8302C00F1140D /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A24BA6F01CF8302C00F1140D /* WDHeaderView.h */,
+				A24BA6F11CF8302C00F1140D /* WDHeaderView.m */,
+				A24BA6F21CF8302C00F1140D /* WDImageVIew.h */,
+				A24BA6F31CF8302C00F1140D /* WDImageVIew.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A24BA6CC1CF8300000F1140D /* LaunchScreen.storyboard in Resources */,
+				A24BA6FE1CF8393300F1140D /* 4.png in Resources */,
+				A24BA6FB1CF8393300F1140D /* 1.png in Resources */,
+				A24BA6FC1CF8393300F1140D /* 2.png in Resources */,
+				A24BA6FD1CF8393300F1140D /* 3.png in Resources */,
+				A24BA6FF1CF8393300F1140D /* 5.png in Resources */,
 				A24BA6C91CF8300000F1140D /* Assets.xcassets in Resources */,
 				A24BA6C71CF82FFF00F1140D /* Main.storyboard in Resources */,
 			);
@@ -270,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24BA6F41CF8302C00F1140D /* WDHeaderView.m in Sources */,
+				A24BA6F51CF8302C00F1140D /* WDImageVIew.m in Sources */,
 				A24BA6C41CF82FFF00F1140D /* ViewController.m in Sources */,
 				A24BA6C11CF82FFF00F1140D /* AppDelegate.m in Sources */,
 				A24BA6BE1CF82FFF00F1140D /* main.m in Sources */,
